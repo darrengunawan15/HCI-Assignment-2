@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    /* background-color: #fef0f0; */
+    background-image: url("./assets/background.png");
+    background-position-x: -140px;
+}
+
+#title{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#form{
+    height: 100vh;
+    width: 35%;
+    padding: 30px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.input-container{
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    box-shadow:  2px 2px 5px #ededed;
+}
+
+.banner{
+    background-color: blue;
+    height: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.header-info{
+    padding: 15px 20px;
+}
+
+.header-info h2{
+    margin-bottom: 20px;
+}
+
+.header-add{
+    padding: 15px 20px;
+}
+
+.header-add-required{
+    padding: 15px 20px;
+    color: red;
+}
+
+.slicer{
+    border-top: 1px solid #dadce0;
+}
+
+.page-slicer{
+    height: 10px;
+}
+
+.input-fields {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-fields label {
+    margin-bottom: 10px;
+}
+
+label:has(+ input[required])::after{
+    content: " *";
+    color: red;
+}
+
+#required{
+    color: red;
+}
+
+.input-fields input {
+    height: 30px;
+    width: 470px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 5px #ededed;
+}
+
+.input-radio{
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    box-shadow:  2px 2px 5px #ededed;
+}
+
+.input-fields-radio{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-container{
+    margin: 20px 0px 0px 20px;
+    flex-direction: column;
+}
+
+.break{
+    height: 20px;
+}
+
+#submission{
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #306bac;
+    border: none;
+    box-shadow:  5px 5px 10px #bfbfbf, -5px -5px 10px #ffffff;
+}
+
+#clearform{
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #d93b4a;
+    border: none;
+    box-shadow:  5px 5px 10px #bfbfbf, -5px -5px 10px #ffffff;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-end{
+    height: 40px;
+}
+
+.table-container{
+    padding: 20px;
+}
+
+.table-container table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.table-container table th{
+    background-color: #306bac;
+    padding: 10px;
+    color: white;
+}
+
+.table-container table td{
+    padding: 6px;
+}
+
+#mid{
+    text-align: center;
+}
+
+#midHeader{
+    text-align: center;
+    background-color: #989898;  
+}
+
+#lazyBtn{
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    background-color: greenyellow;
+    border: none;
+}
+
+.google-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.google-container a{
+    margin-top: 50px;
+}
+
+.lazy-container{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .input-fields input {
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .input-fields input {
+        width: 420px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .input-fields input {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .input-fields input {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .input-fields input {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .input-fields input {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .input-fields input {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+.input-fields input {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+.input-fields input {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+.input-fields input {
+        width: 260px;
+    }
+}
